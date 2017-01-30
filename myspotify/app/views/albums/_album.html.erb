@@ -1,4 +1,0 @@
-<h3><%= link_to album.title, album, :id => album.id %> - <%= date album.released_at %> - <%= sexy_time_ago_in_words(album.released_at) %> - (<%= album.tracks_count %>) - Nombre de vues : <%= album.views_count %></h3>
-<table class="striped">
-  <%= render album.tracks %>
-</table>
